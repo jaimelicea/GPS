@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Generate, Prune, Select: A Pipeline for Counterspeech Generation against Online Hate Speech
@@ -76,3 +77,7 @@ python ./Main.py --dataset reddit
     year = {2021}
 }
 ```
+=======
+# GPS
+Generate, Prune, Select: A Pipeline for Counterspeech Generation against Online Hate Speech
+>>>>>>> 5fe225393d4a40facfa370d6f22931677336ec53
