@@ -4,7 +4,9 @@
 # MATLAB file #
 ###################
 *.p
-
+*.vec
+*.bin
+*.safetensors
 # Compiled source #
 ###################
 *.com

@@ -9,7 +9,7 @@ import glog
 import numpy as np
 import tensorflow as tf
 import tensorflow_hub
-import tensorflow_text  # NOQA: required for PolyAI encoders.
+# import tensorflow_text  # NOQA: required for PolyAI encoders.
 # import tf_sentencepiece  # NOQA: it is used when importing USE_QA.
 from sklearn.model_selection import train_test_split
 from tqdm import tqdm
