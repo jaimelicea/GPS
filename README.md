@@ -19,18 +19,28 @@ The code is based on Python 3.7. Please install the dependencies as below:
 ```
 pip install -r requirements.txt
 ```
+
+En github solo estan los codigos y backups de reducido tamano. Todos los archivos para la replica estan guardados en el link siguiente: 
+https://1drv.ms/f/s!AqL-CBysVDyCmKRG44J67hikS5J20w?e=CaG3f5
+
 ## Code:
 Correr en siguiente orden:
 
 ### BERT_Fine_Tuning_esCoLA
 
-### create_data_for_VAE_SP (o en Main_JL_VAE_EN ingles): 
-Creacion de archivo: conan_for_VAE.txt
-### Main_JL_VAE_SP (o en Main_JL_VAE_EN ingles):
-Generar candidatos a partir de VAE
-### Main_JL_Module_2y3_SP (o en Main_JL_Module_2y3_EN ingles):
-Poda Gramaticalmente los candidatos y selecciona la mejor respuesta
-### JL_Results_Metric:
+### create_data_for_VAE_SP.ipynb (o en Main_JL_VAE_EN ingles): 
+Creacion de archivo: conan_for_VAE.txt. Este es el input principal para entrenar el VAE. 
+No necesario correr pues ya esta creado el archivo en github: GPS/data/conansp_for_VAE.txt (GPS/data/conan_for_VAE.txt)
+
+### Main_JL_VAE_SP.ipynb (o en Main_JL_VAE_EN ingles):
+Entrena el modelo Generar candidatos a partir de VAE: GPS/data/conansp_candidates.txt (GPS/data/conan_candidates.txt)
+
+
+### Main_JL_Module_2y3_SP.ipynb (o en Main_JL_Module_2y3_EN ingles):
+Poda gramaticalmente los candidatos y selecciona la mejor respuesta.
+No necesario correr pues ya esta creado el archivo en github:  GPS/data/extracted_good_candidates_by_LQ_SP.pkl (GPS/data/extracted_good_candidates_by_LQ.pkl)
+
+### JL_Results_Metric.ipynb:
 Generar todas metricas de los resultados generados
 
 
